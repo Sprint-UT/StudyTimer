@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
     @IBAction func TapBotton(sender: AnyObject) {
         
-        TestLabel.text = "OK"
+        TestLabel.text = "Daisuke!!!"
     }
 }
 
