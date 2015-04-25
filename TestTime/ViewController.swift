@@ -9,10 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var TestBotton: UIButton!
+    
+    @IBOutlet var TestLabel: UILabel!
+    
+    var timer : NSTimer!
+    
+    var countNum = 0
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "onUpdate:", userInfo: nil, repeats: true)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,15 +31,28 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet var TestBotton: UIButton!
     
-    @IBOutlet var TestLabel: UILabel!
-    
-    
-
     @IBAction func TapBotton(sender: AnyObject) {
         
-        TestLabel.text = "OK"
+        timer.invalidate()
+        TestLabel.text = "reset"
+        
+    }
+    
+    func onUpdate(timer : NSTimer){
+        
+        nowTime()
+        
+    }
+    
+    func nowTime() {
+        
+        
+        countNum++
+        TestLabel.text = "\(countNum)"
+        
+       
+        
+        
     }
 }
-

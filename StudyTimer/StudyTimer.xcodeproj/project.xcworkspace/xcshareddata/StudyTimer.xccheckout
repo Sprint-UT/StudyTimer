@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>89154708-89DE-4B11-A484-1F2FED6F4AFB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StudyTimer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>099C143C482CE032F1D01EB8862F9731CA08D625</key>
+		<string>https://github.com/Sprint-UT/StudyTimer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StudyTimer/StudyTimer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>099C143C482CE032F1D01EB8862F9731CA08D625</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sprint-UT/StudyTimer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>099C143C482CE032F1D01EB8862F9731CA08D625</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>099C143C482CE032F1D01EB8862F9731CA08D625</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StudyTimer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
