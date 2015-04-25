@@ -54,5 +54,9 @@ class ViewController: UIViewController {
        
         
         
+<<<<<<< HEAD
+=======
+        TestLabel.text = "Daisuke!!!"
+>>>>>>> 15488f4261867116eb9bdbe4f2f49f185fe210d9
     }
 }
